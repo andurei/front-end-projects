@@ -1,0 +1,45 @@
+.h1, h1 {
+  color: rgb(244,249,254);
+}
+
+@media (max-width: 360px) {
+  .h1, h1 {
+    color: rgb(244,249,254);
+    margin-top: 310px;
+  }
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.small, small {
+  flex-basis: 40%;
+  background-color: blue;
+  background-clip: content-box;
+}
+
+.large {
+  flex-basis: 60%;
+  background-color: red;
+  background-clip: content-box;
+}
+
+@media (max-width: 700px) {
+  .small, small {
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .large {
+    flex-basis: 100%;
+  }
+}
+
+.d-flex.flex-wrap.grid {
+  width: 100%;
+  box-sizing: content-box;
+}
+
